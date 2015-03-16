@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+
+}
+body{
+	background-image: url("../image/fondo.png"); /* Colocar una imagen de fondo*/
+	background-image: no-repeat; /* no repetir la imagen en toda la pagina*/
+	background-position: center center; /* alinear al centro de toda la pagina*/
+	background-attachment: fixed; /* poner fijo el fondo que solo se deslicen las letras*/
+	-webkit-background-size: cover; /*tamaño en exploret */
+  	-moz-background-size: cover; /*tamaño en mozila */
+ 	-o-background-size: cover;/* navegador opera*/
+  	background-size: cover; /*tamaño*/
+
+}
+.centro{
+	height: 400px;
+	width: 500px;
+	border: 8px solid #572827;
+	border-radius: 20px;
+	background-color: white;
+	opacity: .6;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -250px;
+}
+.text
+{
+	/*position: absolute;*/
+	font-family: Segoe Script;
+	text-align: center;
+}
+.Titulo
+{
+	/*border: 10px dotted cyan*/
+	height: 100px;
+}
+#titlelogin
+{
+	/*border: 5px solid black;*/
+	font-size: 50px;
+	font-style: normal;
+	font: bold;
+	font-weight:bolder;
+	color: #407E8F;
+}
+#newAcount
+{
+	/*border: 5px solid blue;*/
+	font-size: 12px;
+	font-style: normal;
+	font: bold;
+	font-weight: bolder;
+	color: #A74A38;
+}
+.datos
+{
+	/*border: 10px solid black;*/
+	height: 150px;
+}
+.input
+{
+	height: 30px;
+	width: 300px;
+	left: 50%;
+	top: 50%;
+	background-color: #407E8F;
+	border-radius: 5px;
+}
+#User
+{
+	color: #F7E9CE;
+}
+#Password
+{
+	color: #F7E9CE;
+}
+.extras
+{
+	/*border: 10 dotted red;*/
+	height: 50px;
+	
+}
+#forgot
+{
+	font-size: 10px;
+	color: #A74A38;
+}
+#Remeber
+{
+	font-size: 10px;
+	color: #A74A38;
+}
+.blogin
+{
+	/*border: 10px solid blue;*/
+	height: 100px;
+
+}
+#buttonLogin
+{
+	
+	
+}
+#button
+{
+	height: 30px;
+	width: 90px;
+	background-color: #F2AB50;	
+	border-radius: 5px;
+	border-color: #A74A38;
+	opacity: .7;
+	color: #572827;
+	font-size: 18px;
+	font: bold;
+	font-weight: bolder;
+	font-style: normal;
+}
